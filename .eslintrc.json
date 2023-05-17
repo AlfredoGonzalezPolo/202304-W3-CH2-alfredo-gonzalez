@@ -5,6 +5,8 @@
     "node": true
   },
   "extends": ["xo", "prettier"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
   // "overrides": [
   //   {
   //     "extends": ["xo-typescript"],
